@@ -201,12 +201,12 @@ a {
   -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #33cc33;
+  color: #336699;
   text-decoration: none;
 }
 
 a:hover {
-  color: #33cc33 !important;
+  color: #336699 !important;
   border-bottom-color: transparent;
 }
 
@@ -3000,14 +3000,14 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: #e76278;
+  background-color: #336699;
 }
 
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-  background-color: #e13652;
+  background-color: #336699;
 }
 
 input[type="submit"].disabled,
@@ -3243,7 +3243,7 @@ input[type="button"]:disabled,
 }
 
 .spotlight.style3 .content {
-  border-color: #39c088;
+  border-color: #336699;
 }
 
 .spotlight.inactive .content {
@@ -3470,29 +3470,29 @@ body.landing .dropotron.level-0 {
 /* Header */
 
 #page-wrapper {
-  padding-top: 3.5em;
+  padding-top: 5em;
 }
 
 #header {
-  background: rgba(225, 225, 0, 0.965);
+  background: rgba(39, 40, 51, 0.965);
   box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
   cursor: default;
-  height: 2.6em;
+  height: 5em;
   left: 0;
-  line-height: 2.6em;
+  line-height: 5em;
   position: fixed;
-  top: 30px;
+  top: 0;
   width: 100%;
   z-index: 100;
 }
 
 #header #logo {
   height: inherit;
-  left: 0;
+  left: 1.25em;
   line-height: inherit;
   margin: 0;
   position: absolute;
-  top: -31px;
+  top: 0;
 }
 
 #header nav {
@@ -3508,8 +3508,8 @@ body.landing .dropotron.level-0 {
 #header nav ul li {
   display: inline-block;
   margin-left: 1em;
-  color: #000;
-  font-weight: 800;
+  /* color: white; */
+  font-weight: 500;
 }
 
 #header nav ul li a,
@@ -3537,8 +3537,8 @@ body.landing .dropotron.level-0 {
 
 #header nav ul li.active > a,
 #header nav ul li.active > span {
-  /* color: #336699; */
-  background-color: #336699;
+  color: #336699;
+  /* background-color: #336699; */
 }
 
 #header nav ul li > ul {
