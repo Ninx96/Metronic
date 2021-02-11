@@ -3474,6 +3474,7 @@ body.landing .dropotron.level-0 {
 }
 
 #header {
+  display: flex;
   background: rgba(39, 40, 51, 0.965);
   box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
   cursor: default;
@@ -3493,6 +3494,46 @@ body.landing .dropotron.level-0 {
   margin: 0;
   position: absolute;
   top: 0;
+}
+
+.Kalpvruksh {
+  font-size: xx-large;
+  font-weight: 500;
+  vertical-align: top;
+  color: #009933;
+}
+.digital {
+  font-size: xx-large;
+  font-weight: 500;
+  vertical-align: top;
+  color: #336699;
+}
+
+@media screen and (max-width: 900px) {
+  .Kalpvruksh {
+    font-size: x-large;
+  }
+  .digital {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Kalpvruksh {
+    font-size: large;
+  }
+  .digital {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .Kalpvruksh {
+    display: none;
+  }
+  .digital {
+    display: none;
+  }
 }
 
 #header nav {
