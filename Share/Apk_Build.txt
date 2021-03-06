@@ -1,0 +1,109 @@
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+gradlew assembleDebug  (in android)
+
+npx react-native run-android
+
+npx reat-native start
+
+
+expo build:android -t apk
+
+
+
+-----------Git--------------------
+
+touch .gitignore
+//making a gitignore file 
+
+git init
+
+git add . 
+//also in update
+
+git commit -m ""
+//commit 
+//also on update
+
+git status
+//get status 
+
+git remote add origin 
+//add origin to push to 
+
+git push origin master 
+//push 
+//also on update
+
+ssh-keygen -t rsa -b 4096 -C "ayush@rohininfo.com"
+//making ssh key 
+
+
+modules ---React Native----------------------------
+
+npm install @react-navigation/native
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/drawer
+
+npm install @react-navigation/stack
+
+npm install @react-navigation/material-top-tabs react-native-tab-view
+
+npm i react-native-paper
+
+npm i react-native-vector-icons
+
+npm i @react-native-community/async-storage     
+OR      
+expo install expo-secure-store
+
+npm i react-native-image-picker
+
+npm i react-native-dropdown-picker
+
+npm install react-native-searchable-dropdown --save   
+//(like Dynamic Search Dropdown)
+
+npm i react-native-date-picker
+
+npm i react-native-table-component
+
+npm install --save react-native-signature-canvas 
+
+//https://github.com/YanYuanFE/react-native-signature-canvas               
+
+expo install expo-permissions
+
+expo install expo-image-picker
+
+npm install rn-pdf-reader-js
+
+//https://github.com/xcarpentier/rn-pdf-reader-js
+
+
+
+modules ---React ----------------------------
+
+npm install --save @ckeditor/ckeditor5-react @ckeditor/ckeditor5-build-classic    
+//best rich text editor
+
+npm i --save lodash   
+//useful library for functional programing 
+
+npm i immer
+//produce and work with immutable java objects in react native 
+
+
+
+
+
+
+
+
+
+
+

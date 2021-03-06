@@ -1,0 +1,11 @@
+npm i express                              //express framework 
+
+npm i joi                                  //joi for validations 
+
+npm i -g nodemon                           //nodemon for monitoring and live refreshing 
+
+npm i mssql                                //MS Sql Server for node
+
+npm i dotenv                               //.env file constants
+
+npm i jsonwebtoken                         //JWT
