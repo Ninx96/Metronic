@@ -39,6 +39,14 @@ ssh-keygen -t rsa -b 4096 -C "ayush@rohininfo.com"
 //making ssh key 
 
 
+
+git stash 
+// Discard all the changes made
+
+git pull 
+// pull the repository  
+
+
 modules ---React Native----------------------------
 
 npm install @react-navigation/native
